@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;}
+
+body{
+     background-image:url('natural-pattern.png');
+     font-family: 'Baloo Tammudu 2';}
+
+.container {width: 60%;
+            margin: 0 auto;}
+
+header{
+       background-image: url('natural-header.jpg');
+       border:15px solid white;
+       background:cover;
+       text-align: center;
+       width: 100%;}
+
+header img{
+           width:40%;}
+
+header h3 {
+            font-size:30px;
+            color: white;}
+
+nav {
+     width: 100%;
+     background-color: rgb(158, 181, 177);
+     text-align: center;}
+
+ul.sidebar li {
+               display: inline-block;
+               height:50px;
+               line-height:50px;}
+
+ul.sidebar li a {
+                 color: white;
+                 padding:0 10px;
+                 font-size: 15px;
+                 text-decoration: none;}
+
+.row::after{
+             content:'';
+             clear: both;
+             display: table;
+             }
+
+.col{
+     float: left;
+     margin: auto;
+     border-radius: 10px;
+     margin-top:20px;
+}
+
+.col-one,.col-three{
+                    width:15%;
+                    margin-right: 5%;
+                    margin-left: 5%;
+                    padding:10px;
+}
+
+.col-one{
+         background-color:white;
+}
+
+.col-two{
+         background-color: white;
+         width:50%;
+         padding:10px;
+}
+
+.box-one,.box-two,.box-three{
+                             background-color:white;
+                             border-radius:10px;
+                             padding: 10px;
+
+}
+
+.box-two,.box-three{
+                    margin-top:20px;
+}
+
+footer{
+       width:100%;
+       height:200px;
+       background-color: lightgrey;
+       text-align: center;
+       border-radius:10px;
+       color: grey;
+}
