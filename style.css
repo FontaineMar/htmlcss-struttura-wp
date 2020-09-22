@@ -48,16 +48,16 @@ ul.sidebar li a {
 
 .col{
      float: left;
-     margin: auto;
      border-radius: 10px;
-     margin-top:20px;
+     margin:20px;
+     
+
 }
 
 .col-one,.col-three{
-                    width:15%;
-                    margin-right: 5%;
-                    margin-left: 5%;
-                    padding:10px;
+                    width:20%;
+
+
 }
 
 .col-one{
@@ -66,19 +66,23 @@ ul.sidebar li a {
 
 .col-two{
          background-color: white;
-         width:50%;
-         padding:10px;
+         width:40%;
+         margin-left:5%;
+         margin-right:5%;
+
+
 }
 
 .box-one,.box-two,.box-three{
                              background-color:white;
                              border-radius:10px;
-                             padding: 10px;
-
+                             margin-right:20px;
+                             float: right;
 }
 
 .box-two,.box-three{
                     margin-top:20px;
+
 }
 
 footer{
